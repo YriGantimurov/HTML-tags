@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="body">
+    <div class="page">
+        <main class="main">
+            <section class="tags">
+
+                <div class="tag">
+                    <p class="tag__name">a</p>
+                    <!--
+                        accesskey="c" комбинация клавиш
+                        coords="координаты" + shape ="rect/cirkle/poly/default" крайне не кроссбраузерный атрибут
+                        download предлагает скачать файл в ссылке, а не переводит на другой сайт
+                        href="ссылка на страницу" задает адрес документа, на который следует перейти
+                        name="имя якоря" используется для определения якоря внутри страницы.
+                        rel="строка" определяет отношения между текущим документом и документом, на который ведет ссылка, заданная атрибутом href. Почти не поддерживается браузерами.
+                        rev="строка" является обратным к rel и описывает, чем является текущий документ по отношению к странице, на которую ведет ссылка. Почти не поддерживается браузерами.
+                        tabindex="число" определяет последовательность перехода между ссылками при нажатии на кнопку tab
+                        title="текст" Добавляет поясняющий текст к ссылке в виде всплывающей подсказки.
+                        type="MIME-тип" Устанавливает MIME-тип документа, на который указывает ссылка.
+                    -->
+                    <a 
+                    target="__blank"
+                    accesskey="c"   
+                    href="http://htmlbook.ru/html/a" 
+                    class="tag__item a">
+                        htmlbook
+                    </a>
+                    <p class="tag__comment">ссылка</p>
+                </div>
+
+                <div class="tag">
+                    <p class="tag__name">abbr</p>
+                    <abbr title="Common Gateway Interface, общий шлюзовый интерфейс" class="abbr tag__item">CGI</abbr>
+                    <p class="tag__comment">абривиатура (при наведении, появляется расшифровка)</p>
+
+                <div class="tag">
+                    <p class="tag__name">acronym</p>
+                    <acronym class="tag__item acronym" title="белиберда">СПИД</acronym>
+                    <p class="tag__comment">акроним — это устоявшееся сокращение, которое применяется как самостоятельное слово</p>
+                </div>
+
+                <div class="tag">
+                    <p class="tag__name">adress</p>
+                    <address class="tag__item adress">Yri Gantimurov</address>
+                    <p class="tag__comment">предназначен для хранения информации об авторе (курсив по к/д)</p>
+                </div>
+
+                <div class="tag">
+                    <p class="tag__name">applet</p>
+                    <applet class="tag__item applet" url="./"></applet>
+                    <img class="tag__image" src="./images/tag_applet.png" alt="пример applet">
+                    <p class="tag__comment">предназначен для вставки на страницу апплетов — небольших программ, написанных на языке Java</p>
+                </div>
+                
+                <div class="tag">
+                    <p class="tag__name">article</p>
+                    <article class="tag__item article">Какая-то статья</article>
+                    <p class="tag__comment">задает содержание сайта вроде новости, статьи, записи блога, форума или др.</p>
+                </div>
+                
+                <div class="tag">
+                    <p class="tag__name">aside</p>
+                    <aside class="tag__item aside">
+                        <p>Экономьте электричество</p>
+                        <p>Хороший язык</p>
+                        <p>Чья палка больше</p>
+                    </aside>
+                    <article class="tag__item article_place_aside">сколько не пиши тут, aside будет слева</article>
+                    <p class="tag__comment">Определяет блок сбоку от контента для размещения рубрик, ссылок на архив, меток и другой информации.</p>
+                </div>
+
+                <div class="tag">
+                    <p class="tag__name">audio</p>
+                    <audio src="./audio/ja-7.wav" controls loop></audio>
+                    <p class="tag__comment">Добавляет, воспроизводит и управляет настройками аудиозаписи на веб-странице</p>
+                </div>
+
+        </main>
+    </div>
+</body>

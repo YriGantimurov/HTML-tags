@@ -1,0 +1,55 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/body/body.css);
+@import URL(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+
+.tag__comment {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.tag {
+    margin-top: 40px;
+}
+
+.tag__name {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+.tag__item {
+    margin: 0;
+    padding: 5px 0;
+    border: white;
+}
+
+a {
+    color: white;
+}
+
+.tag__image {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.article_place_aside {
+    margin-right: 240px;
+    display: block;
+}
+
+.aside {
+    padding: 10px;
+    width: 200px;
+    float: right;
+}
