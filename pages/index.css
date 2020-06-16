@@ -22,6 +22,10 @@
     margin-top: 40px;
 }
 
+.tag:first-of-type {
+    margin-top: 0;
+}
+
 .tag__name {
     margin: 0;
     padding: 0;
@@ -44,7 +48,6 @@ a {
 }
 
 .article_place_aside {
-    margin-right: 240px;
     display: block;
 }
 
@@ -52,4 +55,10 @@ a {
     padding: 10px;
     width: 200px;
     float: right;
+}
+
+.tag__name_place_aside {
+    max-width: 200px;
+    display: block;
+    margin: 0;
 }
